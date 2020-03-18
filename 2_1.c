@@ -10,7 +10,7 @@ int licz()
 
 int silnia(int n)
 {
-	licz();
+	//licz();
 	if(n<2) return 1;
 	return n*silnia(n-1);
 }
@@ -21,12 +21,12 @@ int silnia(int n)
 
 int main()
 {
-	int n,m;
-	scanf("%i %i",&n, &m);
-	if(n==0&&m==7) return 0;
+	int n;
+	scanf("%i",&n);
+	//if(n==0&&m==7) return 0;
 	//if(n==7) return 0;
 	printf("%i",silnia(n));
-	printf("\nIle: %i",licz()-1);
+	//printf("\nIle: %i",licz()-1);
 	return 0;
 	
 }
