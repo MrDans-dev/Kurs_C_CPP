@@ -8,6 +8,7 @@ int main()
 	for(i=n;i>=1;i--) // n=3 i=3
 	{
 		wynik*=i; //3 6 6
+		//wynik = wynik * i
 	}
 	printf("wynik= %i",wynik);
 	// n= 3 3*2*1 =6
