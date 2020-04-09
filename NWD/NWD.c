@@ -6,11 +6,6 @@ int NWD(int n, int m)
    return n;
 }
 
-/*
-	n = 64 m =3
-	n = 61 m =3
-	n = 58 m =3
-*/
 
 int main()
 {

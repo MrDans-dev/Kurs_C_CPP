@@ -1,4 +1,3 @@
-//x^2 = x*x sqrt(4)=2 2*2 =4 sqrt(9) = 3 3*3 =9 i*i<=n
 #include <stdio.h>
 #include <stdlib.h>
 

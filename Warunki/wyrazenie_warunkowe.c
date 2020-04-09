@@ -4,8 +4,8 @@ int main()
 {
 	int n=6,m=5;
 	printf("%i\n",m>n?m:n);
-	
-	if(m>n)
+	//warunek?prawda:fa³sz	
+	if(m>=n)
 	{
 		//prawda
 		printf("%i",m);

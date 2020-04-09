@@ -14,10 +14,6 @@ int silnia(int n)
 	if(n<2) return 1;
 	return n*silnia(n-1);
 }
-/*
-	n=3
-	3*(2*(1)) = 6
-*/
 
 int main()
 {
