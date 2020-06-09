@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1590523664 source:f:\projekty\kurs_c_cpp\struktury\z2\main.c
+	<stdio.h>
+	<stdlib.h>
+
