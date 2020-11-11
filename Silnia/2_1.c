@@ -1,16 +1,8 @@
 #include <stdio.h>
 
 
-int licz()
-{
-	static int ile;
-	ile++;
-	return ile;
-}
-
 int silnia(int n)
 {
-	//licz();
 	if(n<2) return 1;
 	return n*silnia(n-1);
 }
